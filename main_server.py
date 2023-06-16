@@ -3,9 +3,8 @@ from server_skeleton import SkeletonServer
 
 
 def main():
-    gm = GameMech()
-    gm.add_player("player", 5, 5)
-    skeleton = SkeletonServer(gm)
+    gmech = GameMech(20,19)
+    skeleton = SkeletonServer(gmech)
     skeleton.run()
 
 

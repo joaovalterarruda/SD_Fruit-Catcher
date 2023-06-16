@@ -1,6 +1,6 @@
-import pygame
 from client_stub import StubClient
-from game_client import GameUI
+from client_game import GameUI
+import pygame
 
 
 def main():
